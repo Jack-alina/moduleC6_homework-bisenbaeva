@@ -1,0 +1,99 @@
+body {
+ background-color: #E6E6FA;
+ overflow: scroll;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-data {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.input-message {
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+}
+
+.send-btn {
+  margin-left: 1em;
+  text-transform: uppercase;
+  color: #F0FFFF;
+  background-color: #1E90FF;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.send-btn:hover {
+  box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+  transform: scale(1.05);
+}
+
+.message-history {
+  position: sticky;
+  bottom: 0;  
+}
+
+.user-message {
+  font: 14px/19px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  display: block;
+  padding: 8px 16px;
+  border: 1px solid rgba(0,0,0,.07);
+  border-radius: 5px;
+  background: #cfefff;
+  color: #333;
+  -webkit-box-shadow: 0 1px 0 0 rgba(0,0,0,0.15);
+  box-shadow: 0 1px 0 0 rgba(0,0,0,0.15);
+  word-break: break-word;
+  -webkit-transition: background-color .5s,color .5s,font-size .3s;
+  -o-transition: background-color .5s,color .5s,font-size .3s;
+  transition: background-color .5s,color .5s,font-size .3s;
+  margin-bottom: 10px;
+  margin-left: auto;
+  width: 60%;
+}
+
+.server-message {
+  font: 14px/19px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  display: block;
+  padding: 8px 16px;
+  border: 1px solid rgba(0,0,0,.07);
+  border-radius: 5px;
+  background: #cfefff;
+  color: #333;
+  -webkit-box-shadow: 0 1px 0 0 rgba(0,0,0,0.15);
+  box-shadow: 0 1px 0 0 rgba(0,0,0,0.15);
+  word-break: break-word;
+  -webkit-transition: background-color .5s,color .5s,font-size .3s;
+  -o-transition: background-color .5s,color .5s,font-size .3s;
+  transition: background-color .5s,color .5s,font-size .3s;
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+.geo-btn {
+  margin-left: auto;
+  width: 100px;
+  position: sticky;
+  bottom: 0;
+  text-transform: uppercase;
+  color: #F0FFFF;
+  background-color: #1E90FF;
+  border: none;
+  border-radius: 5px;
+  outline: none;  
+}
+
+.geo-btn:hover {
+  box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+  transform: scale(1.05);
+}
